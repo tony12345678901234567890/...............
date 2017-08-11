@@ -1,0 +1,127 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#heading {
+  background-color: blue;
+}
+#topBar {
+  height: 30px;
+  
+}
+#a1 {
+  color: black;
+  position: relative;
+  left:500px;
+  font-family: "Trebuchet MS";
+  background-color: red;
+  width: 310px;
+  font-size: 30px;
+   cursor: pointer;
+}
+#a2 {
+  background-image: url('https://res.cloudinary.com/simpleview/image/upload/crm/frisco/Sushi0-37b71d015056a36_37b71f31-5056-a36a-073a9971f1ec38d6.jpg');
+  position: relative;
+  float: left;
+  height: 300px;
+  width: 33.33%;
+  bottom: -15px;
+  font-size: 100px;
+  cursor: onclick;
+}
+#a3 {
+  background-image: url('http://www.seriouseats.com/images/2012/02/20120229-fast-food-fish-wendys.jpg');
+  position: relative;
+  float: left;
+  bottom: 165px;
+  height: 300px;
+  width: 33.33%;
+  font-size: 100px;
+  cursor:onclick;
+}
+#a4 {
+  background-image: url('http://getinspiredeveryday.com/food/wp-content/uploads/sites/5/2013/07/Strawberry-Brownie-Sundae-GI-365-9.jpg');
+  position: relative;
+  float: right;
+  bottom: 345px;
+  height: 300px;
+  width: 33.33%;
+  font-size: 100px;
+  cursor: onclick;
+  
+}
+#a5 {
+  position: relative;
+  bottom: -380px;
+  border-radius: 8px;
+  left: 600px;
+}
+#a6 {
+  color: red;
+}
+body {
+  background-color:black;
+  margin: 0px;
+  padding: 0px;
+}
+#storageArea {
+  color: white;
+  position: relative;
+  bottom: 75px;
+  left: 1050px;
+  width: 10%;
+  height: 10%;
+}
+/*/
+#b1 {
+  color: white;
+  font-size: 25px;
+  font-family: "Trebuchet MS";
+}
+#b2 {
+  color: white;
+  font-size: 25px;
+  font-family: "Trebuchet MS";
+}
+#b3 {
+  color: white;
+  font-size: 25px;
+  font-family: "Trebuchet MS";
+}
+#c1 {
+  font-size: 25px;
+}
+#c2 {
+  font-size: 25px;
+}
+#c3 {
+ font-size: 25px;
+}
+/*/
+#subTotal {
+  font-size: 30px;
+  font-family: "Trebuchet MS";
+  color: red;
+  position: relative;
+  bottom: 100px;
+  width: 30%;
+  height: 10%;
+}
+#grandTotal {
+  font-size: 30px;
+  font-family: "Trebuchet MS";
+  color: red;
+  position: relative;
+  bottom: 100px;
+  left: 500px;
+  width: 20%;
+  height: 10%;
+}
+#a6 {
+  font-family: "Trebuchet MS";
+  position: relative;
+  bottom: -80px;
+  border-radius: 8px;
+  
+}

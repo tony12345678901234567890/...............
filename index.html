@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+  
+    <script>
+      window.onload = function() {
+        window.localStorage.clear();
+        window.sessionStorage.clear();
+      }
+    </script>
+    <div style="background-color:#ff6699; margin-bottom:10px;" colorspan="2" id="topbar">
+    <div id="a1">Tony's Resturant Thing</div>
+        <button onclick="addSushi()" width="50%" height="50%" id="a2">$200</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button onclick="addFish()" id="a3" width="50%" height="50%">$100</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+     <button onclick="addSundae()" id="a4">$2000</button>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+    </div>
+    <button onclick="showAll()" id="a5">Show cart</button>
+    <div id="storageArea">
+      
+    </div>
+    <div id="a6">
+      
+    </div>
+    <div>
+    <p id="subTotal">Sub total</p>
+    </div>
+    <div>
+      <p id="grandTotal">Grand Total</p>
+    </div>
+    <button onclick="finalizeReceipt()" id="a6">receipt</button>
+  </body>
+</html>
